@@ -1,0 +1,12 @@
+# Block all crawlers for /accounts
+User-agent: *
+Disallow: /Service
+Disallow: /Blog
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+Allow: /About
+Allow: /Resume
+
+Sitemap: http://alirezahekmati.ir/sitemap.xml
